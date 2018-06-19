@@ -138,6 +138,7 @@ mod "puppet/healthcheck", :latest
 mod "puppet/jenkins_job_builder", :latest
 mod "puppet/letsencrypt", :latest
 mod "puppet/logrotate", :latest
+mod "puppet/make", :latest
 mod "puppet/mrepo", :latest
 mod "puppet/msoffice", :latest
 mod "puppet/nginx", :latest
