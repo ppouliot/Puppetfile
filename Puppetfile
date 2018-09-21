@@ -62,6 +62,7 @@ mod "skoblenick-asepsis", :latest
 
 
 # Begin Linux/Win
+mod "aboe/chrony", :latest
 mod "ajcrowe/confd", :latest
 # mod "ajjahn/dns", :latest
 mod "ajjahn/dns", # Using master for dns to support puppet-ipam
@@ -245,6 +246,7 @@ mod "rcoleman/netatalk", :latest
 mod "saz/memcached", :latest
 mod "saz/rsyslog", :latest
 mod "sensu/sensu", :latest
+mod "ssm/munin", :latest
 mod "spotify/puppetexplorer", :latest
 mod "stahnma/epel", :latest
 mod "stankevich/python", :latest
