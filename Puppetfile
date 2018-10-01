@@ -245,8 +245,10 @@ mod "rtyler/jenkins", # :latest
 mod "rcoleman/netatalk", :latest
 mod "saz/memcached", :latest
 mod "saz/rsyslog", :latest
+mod "saz/timezone", :latest
 mod "sensu/sensu", :latest
 mod "ssm/munin", :latest
+mod "stm/debconf", :latest
 mod "spotify/puppetexplorer", :latest
 mod "stahnma/epel", :latest
 mod "stankevich/python", :latest
@@ -319,7 +321,7 @@ mod "puppet/windows_time",
 
 mod  "openstack/aodh",
   :git    => 'https://github.com/openstack/puppet-aodh',
-  :branch => 'stable/rocky'
+  :branch => 'stable/pike'
 
 mod  "openstack/autossh",
   :git    => 'https://github.com/openstack/puppet-autossh',
@@ -327,11 +329,11 @@ mod  "openstack/autossh",
 
 mod  "openstack/barbican",
   :git    => 'https://github.com/openstack/puppet-barbican',
-  :branch => 'stable/rocky'
+  :branch => 'stable/pike'
 
 mod  "openstack/ceilometer",
   :git    => 'https://github.com/openstack/puppet-ceilometer',
-  :branch => 'stable/rocky'
+  :branch => 'stable/pike'
 
 mod  "openstack/ceph",
   :git    => 'https://github.com/openstack/puppet-ceph',
@@ -339,7 +341,7 @@ mod  "openstack/ceph",
 
 mod  "openstack/cinder",
   :git    => 'https://github.com/openstack/puppet-cinder',
-  :branch => 'stable/rocky'
+  :branch => 'stable/pike'
 
 mod  "openstack/cloudkitty",
   :git    => 'https://github.com/openstack/puppet-cloudkitty',
@@ -347,15 +349,15 @@ mod  "openstack/cloudkitty",
 
 mod  "openstack/congress",
   :git    => 'https://github.com/openstack/puppet-congress',
-  :branch => 'stable/rocky'
+  :branch => 'stable/pike'
 
 mod  "openstack/designate",
   :git    => 'https://github.com/openstack/puppet-designate',
-  :branch => 'stable/rocky'
+  :branch => 'stable/pike'
 
 mod  "openstack/ec2api",
   :git    => 'https://github.com/openstack/puppet-ec2api',
-  :branch => 'stable/rocky'
+  :branch => 'stable/pike'
 
 mod  "openstack/freezer",
   :git    => 'https://github.com/openstack/puppet-freezer',
@@ -363,7 +365,7 @@ mod  "openstack/freezer",
 
 mod  "openstack/glance",
   :git    => 'https://github.com/openstack/puppet-glance',
-  :branch => 'stable/rocky'
+  :branch => 'stable/pike'
 
 mod  "openstack/glare",
   :git    => 'https://github.com/openstack/puppet-glare',
@@ -371,31 +373,31 @@ mod  "openstack/glare",
 
 mod  "openstack/gnocchi",
   :git    => 'https://github.com/openstack/puppet-gnocchi',
-  :branch => 'stable/rocky'
+  :branch => 'stable/pike'
 
 mod  "openstack/heat",
   :git    => 'https://github.com/openstack/puppet-heat',
-  :branch => 'stable/rocky'
+  :branch => 'stable/pike'
 
 mod  "openstack/horizon",
   :git    => 'https://github.com/openstack/puppet-horizon',
-  :branch => 'stable/rocky'
+  :branch => 'stable/pike'
 
 mod  "openstack/ironic",
   :git    => 'https://github.com/openstack/puppet-ironic',
-  :branch => 'stable/rocky'
+  :branch => 'stable/pike'
 
 mod  "openstack/keystone",
   :git    => 'https://github.com/openstack/puppet-keystone',
-  :branch => 'stable/rocky'
+  :branch => 'stable/pike'
 
 mod  "openstack/magnum",
   :git    => 'https://github.com/openstack/puppet-magnum',
-  :branch => 'stable/rocky'
+  :branch => 'stable/pike'
 
 mod  "openstack/manila",
   :git    => 'https://github.com/openstack/puppet-manila',
-  :branch => 'stable/rocky'
+  :branch => 'stable/pike'
 
 mod  "openstack/midonet",
   :git    => 'https://github.com/openstack/puppet-midonet',
@@ -403,7 +405,7 @@ mod  "openstack/midonet",
 
 mod  "openstack/mistral",
   :git    => 'https://github.com/openstack/puppet-mistral',
-  :branch => 'stable/rocky'
+  :branch => 'stable/pike'
 
 mod  "openstack/monasca",
   :git    => 'https://github.com/openstack/puppet-monasca',
@@ -411,39 +413,39 @@ mod  "openstack/monasca",
 
 mod  "openstack/murano",
   :git    => 'https://github.com/openstack/puppet-murano',
-  :branch => 'stable/rocky'
+  :branch => 'stable/pike'
 
 mod  "openstack/neutron",
   :git    => 'https://github.com/openstack/puppet-neutron',
-  :branch => 'stable/rocky'
+  :branch => 'stable/pike'
 
 mod  "openstack/nova",
   :git    => 'https://github.com/openstack/puppet-nova',
-  :branch => 'stable/rocky'
+  :branch => 'stable/pike'
 
 mod  "openstack/octavia",
   :git    => 'https://github.com/openstack/puppet-octavia',
-  :branch => 'stable/rocky'
+  :branch => 'stable/pike'
 
 mod  "openstack/openstack_extras",
   :git    => 'https://github.com/openstack/puppet-openstack_extras',
-  :branch => 'stable/rocky'
+  :branch => 'stable/pike'
 
 mod  "openstack/openstack_spec_helper",
   :git    => 'https://github.com/openstack/puppet-openstack_spec_helper',
-  :branch => 'stable/rocky'
+  :branch => 'stable/pike'
 
 mod  "openstack/openstacklib",
   :git    => 'https://github.com/openstack/puppet-openstacklib',
-  :branch => 'stable/rocky'
+  :branch => 'stable/pike'
 
 mod  "openstack/oslo",
   :git    => 'https://github.com/openstack/puppet-oslo',
-  :branch => 'stable/rocky'
+  :branch => 'stable/pike'
 
 mod  "openstack/ovn",
   :git    => 'https://github.com/openstack/puppet-ovn',
-  :branch => 'stable/rocky'
+  :branch => 'stable/pike'
 
 mod  "openstack/pacemaker",
   :git    => 'https://github.com/openstack/puppet-pacemaker',
@@ -451,7 +453,7 @@ mod  "openstack/pacemaker",
 
 mod  "openstack/panko",
   :git    => 'https://github.com/openstack/puppet-panko',
-  :branch => 'stable/rocky'
+  :branch => 'stable/pike'
 
 mod  "openstack/qdr",
   :git    => 'https://github.com/openstack/puppet-qdr',
@@ -463,7 +465,7 @@ mod  "openstack/rally",
 
 mod  "openstack/sahara",
   :git    => 'https://github.com/openstack/puppet-sahara',
-  :branch => 'stable/rocky'
+  :branch => 'stable/pike'
 
 mod  "openstack/setproxy",
   :git    => 'https://github.com/openstack/puppet-setproxy',
@@ -471,23 +473,23 @@ mod  "openstack/setproxy",
 
 mod  "openstack/swift",
   :git    => 'https://github.com/openstack/puppet-swift',
-  :branch => 'stable/rocky'
+  :branch => 'stable/pike'
 
 mod  "openstack/tacker",
   :git    => 'https://github.com/openstack/puppet-tacker',
-  :branch => 'stable/rocky'
+  :branch => 'stable/pike'
 
 mod  "openstack/tempest",
   :git    => 'https://github.com/openstack/puppet-tempest',
-  :branch => 'stable/rocky'
+  :branch => 'stable/pike'
 
 mod  "openstack/tripleo",
   :git    => 'https://github.com/openstack/puppet-tripleo',
-  :branch => 'stable/rocky'
+  :branch => 'stable/pike'
 
 mod  "openstack/trove",
   :git    => 'https://github.com/openstack/puppet-trove',
-  :branch => 'stable/rocky'
+  :branch => 'stable/pike'
 
 mod  "openstack/vitrage",
   :git    => 'https://github.com/openstack/puppet-vitrage',
@@ -495,12 +497,12 @@ mod  "openstack/vitrage",
 
 mod  "openstack/vswitch",
   :git    => 'https://github.com/openstack/puppet-vswitch',
-  :branch => 'stable/rocky'
+  :branch => 'stable/pike'
 
 mod  "openstack/watcher",
   :git    => 'https://github.com/openstack/puppet-watcher',
-  :branch => 'stable/rocky'
+  :branch => 'stable/pike'
 
 mod  "openstack/zaqar",
   :git    => 'https://github.com/openstack/puppet-zaqar',
-  :branch => 'stable/rocky'
+  :branch => 'stable/pike'
