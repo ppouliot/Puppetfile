@@ -72,7 +72,7 @@ mod "ajjahn/samba", :latest
 mod "arioch/redis", :latest
 # mod "badgerious/windows_env", :latest
 mod "basti1302/windows_path", :latest
-mod "croddy/make", :latest
+#mod "croddy/make", :latest
 mod "chocolatey/chocolatey", :latest
 mod "chocolatey/chocolatey_server", :latest
 mod "cristifalcas/etcd", :latest
@@ -156,6 +156,7 @@ mod "puppet/rabbitmq", :latest
   
 # puppet-puppetserver on github.com/voxpupuli/puppet-puppetserver
 mod "camptocamp/augeas", :latest
+mod "camptocamp/dell", :latest
 mod "camptocamp/kmod", :latest
 #mod "camptocamp/puppetserver", :latest
 mod "puppet/selinux", :latest
@@ -232,6 +233,7 @@ mod "puppetlabs/tftp",  #:latest
   :branch => 'master'
 mod "puppetlabs/tomcat", :latest
 mod "puppetlabs/transition", :latest
+mod "puppetlabs/translate", :latest
 mod "puppetlabs/vcsrepo", :latest
 mod "puppetlabs/win_desktop_shortcut", :latest
 mod "puppetlabs/wsus_client", :latest
@@ -506,3 +508,13 @@ mod  "openstack/watcher",
 mod  "openstack/zaqar",
   :git    => 'https://github.com/openstack/puppet-zaqar',
   :branch => 'stable/pike'
+# Custom Fact
+mod  "ppouliot/rakuten_datacenters",
+  :git    => 'git@github.rakops.com:raklab/puppet-rakuten_datacenters.git',
+  :rivate_key: "/root/.ssh/id_rsa"
+  :branch => 'master'
+
+mod 'puppet/vyos',
+    :git => 'https://github.com/ppouliot/vyos-builder',
+    :branch => 'puppet'
+
