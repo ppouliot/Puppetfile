@@ -109,7 +109,7 @@ mod "ktreese/nssm", :latest
 mod "KyleAnderson/consul", :latest
 # mod "luxflux/openvpn", :latest
 # Currently adding support for proxydhcp in downstream
-# mod "lex/dnsmasq", :latest
+mod "saz/dnsmasq", :latest
 mod "liamjbennett/win_facts", :latest
 mod "lwf/remote_file", :latest
 #mod "maestrodev/ssh_keygen", :latest
@@ -149,6 +149,7 @@ mod "puppet/puppetboard", :latest
 mod "puppet/ssh_keygen", :latest
 mod "puppet/r10k", :latest
 mod "puppet/rabbitmq", :latest
+mod "puppet/wget", :latest
 # 
 #mod "puppet/rhsm", # :latest
 #  :git => 'https://github.com/voxpupuli/puppet-rhsm',
@@ -262,9 +263,9 @@ mod "vshn/gitlab", :latest
 
 # GitHub Only
 # Moving Quartermaster Module dnsmaq config to this add a template for proxydhcp to send upstream
-mod "lex/dnsmasq",
-  :git    => 'https://github.com/ppouliot/puppet-dnsmasq',
-  :branch => 'master'
+#mod "lex/dnsmasq",
+#  :git    => 'https://github.com/ppouliot/puppet-dnsmasq',
+#  :branch => 'master'
 mod "puppet/puppetserver", 
   :git    => 'https://github.com/voxpupuli/puppet-puppetserver',
   :branch => 'master'
@@ -511,10 +512,15 @@ mod  "openstack/zaqar",
 # Custom Fact
 mod  "ppouliot/rakuten_datacenters",
   :git    => 'git@github.rakops.com:raklab/puppet-rakuten_datacenters.git',
-  :rivate_key: "/root/.ssh/id_rsa"
   :branch => 'master'
 
 mod 'puppet/vyos',
     :git => 'https://github.com/ppouliot/vyos-builder',
     :branch => 'puppet'
 
+mod 'ppouliot/fetchfact',
+    :git => 'https://github.com/ppouliot/puppet-fetchfact',
+    :branch => 'master'
+mod 'ppouliot/location',
+    :git => 'https://github.com/ppouliot/puppet-location',
+    :branch => 'master'
