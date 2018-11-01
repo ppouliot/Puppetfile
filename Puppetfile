@@ -63,6 +63,7 @@ mod "skoblenick-asepsis", :latest
 
 # Begin Linux/Win
 mod "aboe/chrony", :latest
+mod "albatrossflavour/os_patching", :latest
 mod "ajcrowe/confd", :latest
 # mod "ajjahn/dns", :latest
 mod "ajjahn/dns", # Using master for dns to support puppet-ipam
@@ -523,4 +524,10 @@ mod 'ppouliot/fetchfact',
     :branch => 'master'
 mod 'ppouliot/location',
     :git => 'https://github.com/ppouliot/puppet-location',
+    :branch => 'master'
+mod 'GeoffWilliams/lastrun_face',
+    :git => 'https://github.com/GeoffWilliams/lastrun_face',
+    :branch => 'master'
+mod 'declarativesystems/r_profile',
+    :git => 'https://github.com/declarativesystems/r_profile',
     :branch => 'master'
