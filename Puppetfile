@@ -186,23 +186,22 @@ mod "puppetlabs/apt", :latest
 #  :git => 'https://github.com/puppetlabs/puppetlabs-apt',
 #  :branch => 'master'
 #  :tag => '3.0.0' 
-mod "puppetlabs/zfs_core", :latest
+mod "puppetlabs/augeas_core", :latest
 mod "puppetlabs/cron_core", :latest
+mod "puppetlabs/host_core", :latest
 mod "puppetlabs/mount_core", :latest
 mod "puppetlabs/selinux_core", :latest
 mod "puppetlabs/sshkeys_core", :latest
-mod "puppetlabs/zone_core", :latest
-mod "puppetlabs/host_core", :latest
-mod "puppetlabs/device_manager", :latest
-mod "puppetlabs/cisco_ios", :latest
-mod "puppetlabs/ciscopuppet", :latest
-mod "puppetlabs/augeas_core", :latest
 mod "puppetlabs/yumrepo_core", :latest
+mod "puppetlabs/zfs_core", :latest
+mod "puppetlabs/zone_core", :latest
 mod "puppetlabs/aws", :latest
 mod "puppetlabs/azure", :latest
 mod "puppetlabs/catalog_preview", :latest
+mod "puppetlabs/cisco_ios", :latest
 mod "puppetlabs/ciscopuppet", :latest
 mod "puppetlabs/concat", :latest
+mod "puppetlabs/device_manager", :latest
 mod "puppetlabs/dsc", :latest
 mod "puppetlabs/dsc_lite", :latest
 mod "puppetlabs/dism", :latest
