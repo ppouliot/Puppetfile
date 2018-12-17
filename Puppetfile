@@ -128,6 +128,7 @@ mod "puppet/amanda", :latest
 mod "puppet/autofs", '4.3.0' #:latest
 mod "puppet/archive", :latest
 mod "puppet/unattended_upgrades", :latest
+mod "puppet/cron", :latest
 mod "puppet/corosync", :latest
 mod "puppet/community_kickstarts", :latest
 mod "puppet/dhcp", :latest
@@ -192,7 +193,7 @@ mod "puppetlabs/host_core", :latest
 mod "puppetlabs/mount_core", :latest
 mod "puppetlabs/selinux_core", :latest
 mod "puppetlabs/sshkeys_core", :latest
-mod "puppetlabs/yumrepo_core", :latest
+#mod "puppetlabs/yumrepo_core", :latest
 mod "puppetlabs/zfs_core", :latest
 mod "puppetlabs/zone_core", :latest
 mod "puppetlabs/aws", :latest
