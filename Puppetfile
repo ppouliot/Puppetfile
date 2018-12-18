@@ -255,6 +255,7 @@ mod "puppetlabs/vcsrepo", :latest
 mod "puppetlabs/win_desktop_shortcut", :latest
 mod "puppetlabs/wsus_client", :latest
 mod "puppetlabs/xinetd", :latest
+mod "razorsedge/vmwaretools",  :latest
 # need to use master until 1.8.0 is release due to problem w/ jenkins/manifests/repo/debian.pp
 # Location of Jenkins module changed to the voxpupuli repos
 mod "rtyler/jenkins", # :latest
