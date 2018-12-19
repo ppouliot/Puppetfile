@@ -69,6 +69,7 @@ mod "ajcrowe/confd", :latest
 #  commit adds newer concat
 mod "ajjahn/dns", # Using master for dns to support puppet-ipam
    :git => 'https://github.com/ppouliot/puppet-dns',
+#   :commit => '4cb6dfe377e2ea48498e181b630f4215f1117a2e'
    :branch => 'master'
 mod "ajjahn/samba", :latest
 mod "arioch/redis", :latest
@@ -112,6 +113,7 @@ mod "KyleAnderson/consul", :latest
 # mod "luxflux/openvpn", :latest
 # Currently adding support for proxydhcp in downstream
 mod "saz/dnsmasq", :latest
+mod "lboynton/rpmforge", :latest
 mod "liamjbennett/win_facts", :latest
 mod "lwf/remote_file", :latest
 #mod "maestrodev/ssh_keygen", :latest
