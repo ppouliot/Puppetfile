@@ -74,6 +74,7 @@ mod "ajjahn/dns", # Using master for dns to support puppet-ipam
 #   :commit => '4cb6dfe377e2ea48498e181b630f4215f1117a2e'
    :branch => 'master'
 mod "ajjahn/samba", :latest
+# Depreciated for puppet-redis
 # mod "arioch/redis", :latest Depreciated
 # mod "badgerious/windows_env", :latest
 mod "basti1302/windows_path", :latest
@@ -157,12 +158,12 @@ mod "puppet/ssh_keygen", :latest
 mod "puppet/r10k", :latest
 mod "puppet/rabbitmq", :latest
 mod "puppet/redis", :latest
-mod "puppet/wget", :latest
+# Wget Depreciated for puppet-archive
+# mod "puppet/wget", :latest
 # 
 #mod "puppet/rhsm", # :latest
 #  :git => 'https://github.com/voxpupuli/puppet-rhsm',
 #  :branch => 'master'
-  
 # puppet-puppetserver on github.com/voxpupuli/puppet-puppetserver
 mod "camptocamp/augeas", :latest
 mod "camptocamp/dell", :latest
@@ -171,7 +172,8 @@ mod "camptocamp/kmod", :latest
 mod "puppet/selinux", :latest
 mod "puppet/squid", :latest
 mod "puppet/sslcertificate", :latest
-mod "puppet/staging", :latest
+# Staging Depreciated for Archive
+# mod "puppet/staging", :latest
 mod "puppet/smokeping", :latest
 mod "puppet/virtualbox", :latest
 mod "puppet/windows_autoupdate", :latest
