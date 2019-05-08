@@ -74,7 +74,7 @@ mod "ajjahn/dns", # Using master for dns to support puppet-ipam
 #   :commit => '4cb6dfe377e2ea48498e181b630f4215f1117a2e'
    :branch => 'master'
 mod "ajjahn/samba", :latest
-mod "arioch/redis", :latest
+# mod "arioch/redis", :latest Depreciated
 # mod "badgerious/windows_env", :latest
 mod "basti1302/windows_path", :latest
 #mod "croddy/make", :latest
@@ -156,6 +156,7 @@ mod "puppet/puppetboard", :latest
 mod "puppet/ssh_keygen", :latest
 mod "puppet/r10k", :latest
 mod "puppet/rabbitmq", :latest
+mod "puppet/redis", :latest
 mod "puppet/wget", :latest
 # 
 #mod "puppet/rhsm", # :latest
