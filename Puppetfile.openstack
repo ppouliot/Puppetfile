@@ -1,0 +1,189 @@
+# OpenStack Puppet Modules
+
+mod  "openstack/aodh",
+  :git    => 'https://github.com/openstack/puppet-aodh',
+  :branch => 'stable/rocky'
+
+mod  "openstack/autossh",
+  :git    => 'https://github.com/openstack/puppet-autossh',
+  :branch => 'master'
+
+mod  "openstack/barbican",
+  :git    => 'https://github.com/openstack/puppet-barbican',
+  :branch => 'stable/rocky'
+
+mod  "openstack/ceilometer",
+  :git    => 'https://github.com/openstack/puppet-ceilometer',
+  :branch => 'stable/rocky'
+
+mod  "openstack/ceph",
+  :git    => 'https://github.com/openstack/puppet-ceph',
+  :branch => 'master'
+
+mod  "openstack/cinder",
+  :git    => 'https://github.com/openstack/puppet-cinder',
+  :branch => 'stable/rocky'
+
+mod  "openstack/cloudkitty",
+  :git    => 'https://github.com/openstack/puppet-cloudkitty',
+  :branch => 'master'
+
+mod  "openstack/congress",
+  :git    => 'https://github.com/openstack/puppet-congress',
+  :branch => 'stable/rocky'
+
+mod  "openstack/designate",
+  :git    => 'https://github.com/openstack/puppet-designate',
+  :branch => 'stable/rocky'
+
+mod  "openstack/ec2api",
+  :git    => 'https://github.com/openstack/puppet-ec2api',
+  :branch => 'stable/rocky'
+
+mod  "openstack/freezer",
+  :git    => 'https://github.com/openstack/puppet-freezer',
+  :branch => 'master'
+
+mod  "openstack/glance",
+  :git    => 'https://github.com/openstack/puppet-glance',
+  :branch => 'stable/rocky'
+
+mod  "openstack/glare",
+  :git    => 'https://github.com/openstack/puppet-glare',
+  :branch => 'master'
+
+mod  "openstack/gnocchi",
+  :git    => 'https://github.com/openstack/puppet-gnocchi',
+  :branch => 'stable/rocky'
+
+mod  "openstack/heat",
+  :git    => 'https://github.com/openstack/puppet-heat',
+  :branch => 'stable/rocky'
+
+mod  "openstack/horizon",
+  :git    => 'https://github.com/openstack/puppet-horizon',
+  :branch => 'stable/rocky'
+
+mod  "openstack/ironic",
+  :git    => 'https://github.com/openstack/puppet-ironic',
+  :branch => 'stable/rocky'
+
+mod  "openstack/keystone",
+  :git    => 'https://github.com/openstack/puppet-keystone',
+  :branch => 'stable/rocky'
+
+mod  "openstack/magnum",
+  :git    => 'https://github.com/openstack/puppet-magnum',
+  :branch => 'stable/rocky'
+
+mod  "openstack/manila",
+  :git    => 'https://github.com/openstack/puppet-manila',
+  :branch => 'stable/rocky'
+
+mod  "openstack/midonet",
+  :git    => 'https://github.com/openstack/puppet-midonet',
+  :branch => 'master'
+
+mod  "openstack/mistral",
+  :git    => 'https://github.com/openstack/puppet-mistral',
+  :branch => 'stable/rocky'
+
+mod  "openstack/monasca",
+  :git    => 'https://github.com/openstack/puppet-monasca',
+  :branch => 'master'
+
+mod  "openstack/murano",
+  :git    => 'https://github.com/openstack/puppet-murano',
+  :branch => 'stable/rocky'
+
+mod  "openstack/neutron",
+  :git    => 'https://github.com/openstack/puppet-neutron',
+  :branch => 'stable/rocky'
+
+mod  "openstack/nova",
+  :git    => 'https://github.com/openstack/puppet-nova',
+  :branch => 'stable/rocky'
+
+mod  "openstack/octavia",
+  :git    => 'https://github.com/openstack/puppet-octavia',
+  :branch => 'stable/rocky'
+
+mod  "openstack/openstack_extras",
+  :git    => 'https://github.com/openstack/puppet-openstack_extras',
+  :branch => 'stable/rocky'
+
+mod  "openstack/openstack_spec_helper",
+  :git    => 'https://github.com/openstack/puppet-openstack_spec_helper',
+  :branch => 'stable/rocky'
+
+mod  "openstack/openstacklib",
+  :git    => 'https://github.com/openstack/puppet-openstacklib',
+  :branch => 'stable/rocky'
+
+mod  "openstack/oslo",
+  :git    => 'https://github.com/openstack/puppet-oslo',
+  :branch => 'stable/rocky'
+
+mod  "openstack/ovn",
+  :git    => 'https://github.com/openstack/puppet-ovn',
+  :branch => 'stable/rocky'
+
+mod  "openstack/pacemaker",
+  :git    => 'https://github.com/openstack/puppet-pacemaker',
+  :branch => 'master'
+
+mod  "openstack/panko",
+  :git    => 'https://github.com/openstack/puppet-panko',
+  :branch => 'stable/rocky'
+
+mod  "openstack/qdr",
+  :git    => 'https://github.com/openstack/puppet-qdr',
+  :branch => 'master'
+
+mod  "openstack/rally",
+  :git    => 'https://github.com/openstack/puppet-rally',
+  :branch => 'master'
+
+mod  "openstack/sahara",
+  :git    => 'https://github.com/openstack/puppet-sahara',
+  :branch => 'stable/rocky'
+
+mod  "openstack/setproxy",
+  :git    => 'https://github.com/openstack/puppet-setproxy',
+  :branch => 'master'
+
+mod  "openstack/swift",
+  :git    => 'https://github.com/openstack/puppet-swift',
+  :branch => 'stable/rocky'
+
+mod  "openstack/tacker",
+  :git    => 'https://github.com/openstack/puppet-tacker',
+  :branch => 'stable/rocky'
+
+mod  "openstack/tempest",
+  :git    => 'https://github.com/openstack/puppet-tempest',
+  :branch => 'stable/rocky'
+
+mod  "openstack/tripleo",
+  :git    => 'https://github.com/openstack/puppet-tripleo',
+  :branch => 'stable/rocky'
+
+mod  "openstack/trove",
+  :git    => 'https://github.com/openstack/puppet-trove',
+  :branch => 'stable/rocky'
+
+mod  "openstack/vitrage",
+  :git    => 'https://github.com/openstack/puppet-vitrage',
+  :branch => 'master'
+
+mod  "openstack/vswitch",
+  :git    => 'https://github.com/openstack/puppet-vswitch',
+  :branch => 'stable/rocky'
+
+mod  "openstack/watcher",
+  :git    => 'https://github.com/openstack/puppet-watcher',
+  :branch => 'stable/rocky'
+
+mod  "openstack/zaqar",
+  :git    => 'https://github.com/openstack/puppet-zaqar',
+  :branch => 'stable/rocky'
