@@ -154,6 +154,7 @@ mod "puppet/nginx", :latest
 mod "puppet/nodejs", :latest
 mod "puppet/openvpn", :latest
 mod "puppet/puppetboard", :latest
+mod "puppet/python", :latest
 mod "puppet/ssh_keygen", :latest
 mod "puppet/r10k", :latest
 mod "puppet/rabbitmq", :latest
@@ -278,7 +279,8 @@ mod "ssm/munin", :latest
 mod "stm/debconf", :latest
 mod "spotify/puppetexplorer", :latest
 mod "stahnma/epel", :latest
-mod "stankevich/python", :latest
+# Depreciated in favor of puppet/python
+#mod "stankevich/python", :latest
 #mod "theforman/dns", :latest
 mod "thias/libvirt", :latest
 mod "thias/quagga", :latest
