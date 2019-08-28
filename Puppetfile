@@ -79,7 +79,7 @@ mod "ajjahn/samba", :latest
 # mod "badgerious/windows_env", :latest
 mod "basti1302/windows_path", :latest
 #mod "croddy/make", :latest
-mod "chocolatey/chocolatey", :latest
+#mod "chocolatey/chocolatey", :latest
 mod "chocolatey/chocolatey_server", :latest
 mod "cristifalcas/etcd", :latest
 mod "cristifalcas/flannel", :latest
@@ -130,7 +130,8 @@ mod "otherskins/ansible", :latest
 # VoxPupuli Modules
 mod "puppet/amanda", :latest
 # autofs pinning to 4.3.0 for quartermaster module
-mod "puppet/autofs", '4.3.0' #:latest
+#mod "puppet/autofs", '4.3.0' #:latest
+mod "puppet/autofs", :latest
 mod "puppet/archive", :latest
 mod "puppet/unattended_upgrades", :latest
 mod "puppet/cron", :latest
@@ -160,7 +161,8 @@ mod "puppet/r10k", :latest
 mod "puppet/rabbitmq", :latest
 mod "puppet/redis", :latest
 # Wget Depreciated for puppet-archive
-# mod "puppet/wget", :latest
+# Needed for Fetchfact
+mod "puppet/wget", :latest
 # 
 #mod "puppet/rhsm", # :latest
 #  :git => 'https://github.com/voxpupuli/puppet-rhsm',
@@ -207,6 +209,7 @@ mod "puppetlabs/zone_core", :latest
 mod "puppetlabs/aws", :latest
 mod "puppetlabs/azure", :latest
 mod "puppetlabs/catalog_preview", :latest
+mod "puppetlabs/chocolatey", :latest
 mod "puppetlabs/cisco_ios", :latest
 mod "puppetlabs/ciscopuppet", :latest
 mod "puppetlabs/concat", :latest
@@ -348,9 +351,9 @@ mod "puppet/windows_time",
 
 
 # Custom Fact
-mod  "ppouliot/rakuten_datacenters",
-  :git    => 'git@github.rakops.com:raklab/puppet-rakuten_datacenters.git',
-  :branch => 'master'
+#mod  "ppouliot/rakuten_datacenters",
+#  :git    => 'git@github.rakops.com:raklab/puppet-rakuten_datacenters.git',
+#  :branch => 'master'
 
 mod 'puppet/vyos',
     :git => 'https://github.com/ppouliot/vyos-builder',
