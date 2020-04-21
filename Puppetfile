@@ -88,6 +88,7 @@ mod "cristifalcas/kubernetes", :latest
 mod "dalen/puppetdbquery", :latest
 # mod "dhollinger/autofs", :latest
 mod "derdanne/nfs", :latest
+mod "danieldreier/autosign", :latest
 mod "garethr/erlang", :latest
 # mod "garethr/docker", :latest
 # This module requires a cluster api
@@ -111,6 +112,7 @@ mod "herculesteam/augeasproviders_syslog", :latest
 mod "jamtur01/httpauth", :latest
 mod "jhoblitt/ganglia", :latest
 mod "jsok/vault", :latest
+mod "joeypiccola/timezone_win", :latest
 mod "ktreese/nssm", :latest
 mod "KyleAnderson/consul", :latest
 # mod "luxflux/openvpn", :latest
@@ -345,9 +347,9 @@ mod "puppet/windows_service",
 mod "puppet/windows_terminal_services",
   :git    => 'https://github.com/ppouliot/puppet-windows_terminal_services',
   :branch => 'master'
-mod "puppet/windows_time",
-  :git    => 'https://github.com/ppouliot/puppet-windows_time',
-  :branch => 'master'
+#mod "puppet/windows_time",
+#  :git    => 'https://github.com/ppouliot/puppet-windows_time',
+#  :branch => 'master'
 
 
 # Custom Fact
