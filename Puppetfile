@@ -248,8 +248,9 @@ mod "puppetlabs/puppet_agent", :latest
 mod "puppetlabs/puppet_authorization", :latest
 mod "puppetlabs/puppetdb", :latest
 mod "puppetlabs/puppetserver_gem", :latest
-mod "puppetlabs/registry", :latest
 mod "puppetlabs/reboot", :latest
+mod "puppetlabs/registry", :latest
+mod "puppetlabs/resource_api", :latest
 mod "puppetlabs/rkt", :latest
 mod "puppetlabs/rsync", :latest
 mod "puppetlabs/ruby", :latest
